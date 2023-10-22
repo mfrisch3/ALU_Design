@@ -14,8 +14,9 @@ module ALU_cell(
   // You likely need more than just Sum.                          //
   /////////////////////////////////////////////////////////////////
   logic Sum;			// output of FA cell feeds into Y-mux
-  logic y1;
-  
+  logic Aout;     // output of A mux
+  logic Bout;     //
+
   /////////////////////////////////////////////////////////////////////
   // Instantiate verilog primitives to create any needed internal   //
   // signals (A or B).  You are allowed to use assign statements   //
